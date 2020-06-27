@@ -1,13 +1,6 @@
 .App {
-  text-align: center;
-  border-radius: 0.5em;
-  box-shadow: 6px 7px 7px 6px rgba(0.247, 0.247, 0.247, 0.247);
-  display: block;
-  font-size: 16px;
-  margin: 15px 0 15px;
-  padding: 10px;
-  width: 100%;
-  background-color: #333232;
+  margin: 30px auto;
+  width: 350px;
 }
 
 .App-logo {
@@ -22,15 +15,8 @@
 }
 
 .App-header {
-  background-color: #333232;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 5px 60px 5px;
-  font-size: calc(10px + 1vmin);
-  color: rgb(39, 39, 39);
+  margin: 30px auto;
+  width: 350px;
 }
 
 .App-link {
@@ -57,7 +43,11 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-image: url(image.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: auto;
+  opacity:5.0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +90,7 @@ b {
   margin: 20px 0;
   border-radius: 0.25em;
   color: rgb(255, 255, 255);
-  background-color: #1d1d1d;
+  background-color: #0f4c75;
 }
 
 .inc-exp-container > div {
@@ -150,7 +140,7 @@ input[type='number'] {
   padding: 10px;
   width: 100%;
   color: rgb(255, 255, 255);
-  background-color: #1d1d1d;
+  background-color: #0f4c75;
 }
 
 .btn {
